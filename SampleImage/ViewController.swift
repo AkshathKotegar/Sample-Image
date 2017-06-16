@@ -25,7 +25,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     var imagePicked = 0
     var imageColor1: UIColor = UIColor()
     var imageColor2: UIColor = UIColor()
-    //var popover: UIPopoverController? = nil
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -91,8 +91,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
         else
         {
-            //popover = UIPopoverController(contentViewController: alert)
-            //popover!.present(from: imageUpload.frame, in: self.view, permittedArrowDirections: UIPopoverArrowDirection.any, animated: true)
+            
         }
     }
     
@@ -118,8 +117,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
         else
         {
-            //popover = UIPopoverController(contentViewController: picker!)
-            // popover!.present(from: imageUpload.frame, in: self.view, permittedArrowDirections: UIPopoverArrowDirection.any, animated: true)
+            
         }
     }
     
